@@ -1,0 +1,1 @@
+const mongoose=require("mongoose");module.exports=mongoose.model("Project",new mongoose.Schema({title:{type:String,required:true},description:{type:String,required:true},stack:[String],liveUrl:String,githubUrl:String,featured:Boolean},{timestamps:true}));
